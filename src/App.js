@@ -22,10 +22,16 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        <Display />
+        <Display props="nan"/>
         <Specials />
-        <Numbers />
-        <Operators />
+        <div className="numOps">
+            <div>
+                <Numbers />
+            </div>
+            <div>
+                <Operators />
+            </div>
+        </div>
       </div>
     </div>
   );
