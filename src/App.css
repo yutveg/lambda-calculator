@@ -11,7 +11,7 @@
    margin: 2%;
 }
 .display {
-    margin: 25px auto 15px auto;
+    margin: 15px auto 15px auto;
     height: 65px;
     width: 300px;
     border-radius: 50px;
@@ -41,9 +41,10 @@ button {
 }
 .numberCharContainer {
     width: 100%;
+    padding-top: 5%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4%;
+    grid-gap: 6%;
 }
 .operatorCharContainer {
     width: 100%;

@@ -4,7 +4,7 @@ import { specials } from "../../../data.js";
 export const SpecialButton = (props) => {
   return (
     <button>
-      {props.button}
+      {props.value}
     </button>
   );
 };

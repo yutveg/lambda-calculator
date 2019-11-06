@@ -10,7 +10,7 @@ const Specials = () => {
   return (
     <div className="specialCharContainer">
       {specialChars.map((item, index) => (
-         <SpecialButton key={index} button={item}/>
+         <SpecialButton key={index} value={item}/>
       ))}
     </div>
   );

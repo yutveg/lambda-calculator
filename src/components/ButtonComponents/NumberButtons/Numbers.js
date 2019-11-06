@@ -13,7 +13,7 @@ const Numbers = () => {
   return (
     <div className="numberCharContainer">
       {numberChars.map((item, index) => (
-        <NumberButton key={index} button={item} />
+        <NumberButton key={index} value={item}/>
       ))}
     </div>
   );
