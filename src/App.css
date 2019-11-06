@@ -1,15 +1,19 @@
 .container {
+    margin: 0 auto;
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 350px;
     border-radius: 15px;
     border: 2px solid grey;
-    padding-bottom: 25px;
+    padding: 20px;
+}
+.app div {
+   margin: 2%;
 }
 .display {
-    margin-top: 25px;
-    height: 100px;
-    width: 450px;
+    margin: 15px auto 15px auto;
+    height: 65px;
+    width: 300px;
     border-radius: 50px;
     color: white;
     background-color: #322c2d;
@@ -17,6 +21,38 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding-right: 8%;
-    font-size: 5.0rem;
+    padding: 5%;
+    font-size: 4.6rem;
   }
+button {
+    border-radius: 24px;
+    font-size: 4.2rem;
+}
+.numOps {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-evenly;
+}
+.numpOps div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.numberCharContainer {
+    width: 100%;
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6%;
+}
+.operatorCharContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5;
+}
+.specialCharContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
